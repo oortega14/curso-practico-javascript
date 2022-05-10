@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-size: 62.5%;
+    background-color: rgb(190, 118, 50);
+}
+
+h1 {
+    font-size: 8rem;
+    color: whitesmoke;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Cuadro {
+    background-color: rgb(187, 184, 184);
+    width: 30rem;
+    height: 30rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.Triangulo {
+    background-color: rgb(187, 184, 184);
+    width: 30rem;
+    height: 30rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.Circulo {
+    background-color: rgb(187, 184, 184);
+    width: 30rem;
+    height: 30rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+header {
+    text-align: center;
+}
+
+.imagen {
+    width: 35px;
+    height: 35px;
+}
+
+h2 {
+    padding-left: 2.1rem;
+    padding-top: 1rem;
+    display: inline-block;
+}
+
+.cabecera {
+    display: flex;
+    justify-content: center;
+}
+
+.cuerpo {
+    font-size: 1.4rem;
+    padding-top: 2rem;
+    padding: 2rem;
+}
+
+button {
+    margin-top: 1rem;
+    display: block;
+}

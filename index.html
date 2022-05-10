@@ -5,9 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
-    <title>Document</title>
+    <title>Figuras Geometricas</title>
 </head>
 <body>
+    <header>
+        <h1>Desarrollo Taller  1</h1>
+    </header>
+    <main>
+        <section class="flex">
+            <div class="Cuadro">
+                <div class="cabecera">
+                    <img src="./img/cuadrado.png" alt="Cuadro"  class="imagen">
+                    <h2 class="Subtitulos">Cuadrado</h2>
+                </div>
+                <div class="cuerpo">
+                    <form action="">
+                        <label for="InputCuadrado">
+                            Escribe cuanto mide el lado del cuadro:
+                        </label>
+                        <input id="InputCuadrado" type="number"/>
+                        <button type="button" onclick="calcularAreaCuadrado">
+                            Calcular el area
+                        </button>
+                        <button type="button" onclick="calcularPerimetroCuadrado">
+                            Calcular el perimetro
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="Triangulo">
+                <div class="cabecera">
+                    <img src="./img/variante-de-contorno-de-triangulo.png" alt="Cuadro" class="imagen">
+                    <h2>Triangulo</h2>
+                </div>
+                <div class="cuerpo">
+                    <form action="">
+                        <label for="InputTriangulo">
+                            Escribe cuanto mide los lados del triangulo:
+                        </label>
+                        <input id="InputTriangulo" type="number"/>
+                        <button type="button" onclick="calcularAreaTriangulo">
+                            Calcular el area
+                        </button>
+                        <button type="button" onclick="calcularPerimetroTriangulo">
+                            Calcular el perimetro
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="Circulo">
+                <div class="cabecera">
+                    <img src="./img/circulo.png" alt="Cuadro" class="imagen">
+                    <h2>Circulo</h2>
+                </div>
+                <div class="cuerpo">
+                    <form action="">
+                        <label for="InputCirculo">
+                            Escribe cuanto mide el radio del circulo:
+                        </label>
+                        <input id="InputCirculo" type="number"/>
+                        <button type="button" onclick="calcularAreaCirculo">
+                            Calcular el area
+                        </button>
+                        <button type="button" onclick="calcularPerimetroCirculo">
+                            Calcular el perimetro
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
     
+    <script src="./figuras.js"></script>
 </body>
 </html>
